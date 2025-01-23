@@ -53,14 +53,14 @@ let i = 1;
 
 nextx.addEventListener("click", () => {
    i++;
-   if (i == 7) i = 1;
+   if (i == 6) i = 1;
    img.src = `./img/image-${i}.jpg`;
    
 });
 
 prevx.addEventListener("click", () => {
   i--;
-  if (i == 0) i = 6;
+  if (i == 0) i = 5;
   img.src = `./img/image-${i}.jpg`;
   
 });
